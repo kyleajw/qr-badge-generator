@@ -19,7 +19,7 @@ function createQRCode() {
         twitter: document.querySelector('#twitter').value,
         github: document.querySelector('#github').value
     }
-    console.log(userInfo);
+    // console.log(userInfo);
     if (userInfo.firstName === '' || userInfo.lastName === '' || userInfo.email === '') {
 
     } else {

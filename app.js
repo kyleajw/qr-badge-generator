@@ -1,4 +1,4 @@
-import qrcode from './node_modules/qrcode-generator';
+import qrcode from './node_modules/qrcode-generator/qrcode';
 
 qr = qrcode(4, 'L');
 qr.addData('Hi');

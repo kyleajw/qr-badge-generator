@@ -2,8 +2,9 @@
   "name": "qr-badge-generator",
   "version": "1.0.0",
   "description": "using npm qrcode-generator, creates a qr code containing info on values such as name, email, twitter, github etc.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/kyleajw/qr-badge-generator#readme",
   "dependencies": {
     "qrcode-generator": "^1.4.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }

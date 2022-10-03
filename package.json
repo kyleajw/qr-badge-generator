@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kyleajw/qr-badge-generator/issues"
   },
-  "homepage": "https://github.com/kyleajw/qr-badge-generator#readme"
+  "homepage": "https://github.com/kyleajw/qr-badge-generator#readme",
+  "dependencies": {
+    "qrcode-generator": "^1.4.4"
+  }
 }

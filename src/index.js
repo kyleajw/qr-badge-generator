@@ -2,7 +2,7 @@ let qrcode = require('../node_modules/qrcode-generator/qrcode.js');
 
 let typeNumber = 12;
 let errorCorrectionLevel = 'L';
-let qr = qrcode(typeNumber, errorCorrectionLevel);
+
 
 
 
@@ -23,6 +23,7 @@ function createQRCode() {
     if (userInfo.firstName === '' || userInfo.lastName === '' || userInfo.email === '') {
 
     } else {
+        let qr = qrcode(typeNumber, errorCorrectionLevel);
         qr.addData(`First Name: ${userInfo.firstName}\nLast Name: ${userInfo.lastName}\nEmail: ${userInfo.email}\nTwitter: ${userInfo.twitter}\nGithub: ${userInfo.github}`);
         qr.make();
         document.getElementById('placeHolder').innerHTML = qr.createImgTag();

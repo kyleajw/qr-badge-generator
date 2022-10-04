@@ -1,0 +1,31 @@
+.badge{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: #FF3131 solid 4px;
+    padding: 20px;
+}
+
+#badge-email{
+    font-size: 3vw;
+}
+
+#badge-full-name{
+    font-size: 6vw;
+}
+
+#badge-github, #badge-twitter{
+    font-size: 3vw;
+}
+
+
+#qr-placeholder img{
+    border-radius: 5px;
+    border: #FF3131 solid 3px;
+}
+
+#qr-placeholder{
+    padding-top: 20vw;
+}
